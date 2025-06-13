@@ -5,6 +5,7 @@ import Scroll from "@/common_components/home/Scroll";
 import About from "@/common_components/home/About";
 import MemCoin from "@/common_components/home/MemCoin";
 import FAQ from "@/common_components/home/FAQ";
+import HowToBuy from "@/common_components/home/HowToBuy";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <About /> */}
+      <HowToBuy />
       <FAQ />
       <MemCoin />
     </div>

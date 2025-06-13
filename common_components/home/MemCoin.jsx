@@ -2,11 +2,11 @@ import React from "react";
 
 const MemCoin = () => {
   return (
-    <div className="flex items-center justify-center flex-col  container bg-bgGreen overflow-hidden">
+    <div className="flex items-center justify-center flex-col bg-bgGreen overflow-hidden ">
       <p className="text-customgreen text-4xl lg:text-9xl 2xl:text-[12rem] font-dela">
         MEMECOIN
       </p>
-      <div className="w-full my-12 grid grid-cols-12">
+      <div className="w-full xl:w-[80%] my-12 grid grid-cols-12">
         {textItems?.map((item, idx) => {
           return (
             <div

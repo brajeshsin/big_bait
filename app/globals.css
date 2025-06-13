@@ -14,10 +14,6 @@
 }
 
 @layer components {
-  .container {
-    @apply w-[300px] md:w-[1200px] lg:min-w-full container flex items-center justify-center;
-  }
-
   .font-dela {
     font-family: "Dela Gothic One", sans-serif;
   }

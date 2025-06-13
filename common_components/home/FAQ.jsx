@@ -16,13 +16,13 @@ const FAQ = () => {
         GOT SOME FAQ?
       </p>
       <Container>
-        <div className="grid grid-cols-12 gap-4 lg:gap-10 p-10">
+        <div className="grid grid-cols-12 gap-4 lg:gap-10">
           {faqData?.map((item, idx) => {
             return (
               <div
                 className={`col-span-12 2xl:col-span-6 ${
                   selectedIndex == idx ? "bg-[#e7eeda]" : "bg-bg-cream"
-                } min-h-52 flex justify-center items-center gap-8 px-10 lg:px-20 rounded-2xl group cursor-pointer transition-all delay-100 duration-300 `}
+                } min-h-64 flex justify-center items-center gap-8 px-10 lg:px-20 rounded-4xl group cursor-pointer transition-all delay-100 duration-300 `}
                 key={idx}
                 onClick={() => {
                   if (selectedIndex == idx) {
