@@ -11,10 +11,10 @@ import RoadMap from "@/common_components/home/RoadMap";
 export default function Home() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Scroll />
-      <About /> */}
+      <About />
       <RoadMap />
       <HowToBuy />
       <FAQ />

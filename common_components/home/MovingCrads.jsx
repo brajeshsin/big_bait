@@ -5,7 +5,15 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 
-const logos = ["Gate.io", "Hello", "Hello", "Hello", "Hello", "Hello", "Hello"];
+const logos = [
+  "Gate.io",
+  "Gate.io",
+  "Gate.io",
+  "Gate.io",
+  "Gate.io",
+  "Gate.io",
+  "Gate.io",
+];
 
 export default function LogoSwiper() {
   return (
@@ -28,7 +36,7 @@ export default function LogoSwiper() {
             <SwiperSlide key={index}>
               <div>
                 <button
-                  className="bg-cream px-8 py-4 border-4 border-black rounded-full cursor-pointer hover:bg-green"
+                  className="bg-cream px-10 py-5 border-4 border-black rounded-full cursor-pointer hover:bg-customgreen text-black font-bold"
                   style={{ boxShadow: "2px 1px #000000" }}
                 >
                   {src}

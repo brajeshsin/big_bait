@@ -71,7 +71,7 @@ export default function () {
             </div>
           </div> */}
           <div className="bg-[#f1f1e7] rounded-r-3xl md:rounded-l-none shadow-lg flex-1 p-6 relative flex flex-col border-t-4 border-r-4 border-b-4">
-            <p className="text-black font-semibold mb-3 flex items-center gap-2 cursor-pointer">
+            <p className="text-black font-semibold mb-3 flex items-center gap-2 cursor-pointer duration-300 ease-in hover:scale-105">
               <span className="inline-block  flex items-center justify-center text-black text-xs">
                 <RiVideoFill className="w-10 h-10 cursor-pointer" />
               </span>
