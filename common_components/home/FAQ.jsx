@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import Container from "../Container";
 
 const FAQ = () => {
-  const [selectedIndex, setSelectedIndex] = useState("");
+  const [selectedIndex, setSelectedIndex] = useState();
   return (
     <div
-      className="bg-darkGreen flex items-center justify-center flex-col overflow-hidden"
+      className="bg-darkGreen flex items-center justify-center flex-col overflow-hidden py-20"
       style={{
         backgroundImage: 'url("/plus.svg")',
       }}
@@ -20,7 +20,7 @@ const FAQ = () => {
           {faqData?.map((item, idx) => {
             return (
               <div
-                className={`col-span-12 lg:col-span-6 ${
+                className={`col-span-12 2xl:col-span-6 ${
                   selectedIndex == idx ? "bg-[#e7eeda]" : "bg-bg-cream"
                 } min-h-52 flex justify-center items-center gap-8 px-10 lg:px-20 rounded-2xl group cursor-pointer transition-all delay-100 duration-300 `}
                 key={idx}
@@ -33,15 +33,26 @@ const FAQ = () => {
                 }}
               >
                 <div
-                  className={`bg-darkGreen w-fit rounded-sm p-1 ${
+                  className={`bg-darkGreen w-fit rounded-sm p-1 hidden md:flex ${
                     selectedIndex == idx ? "rotate-45" : "group-hover:rotate-90"
                   } transition-all delay-100 duration-300 ease-linear`}
                 >
-                  <IconPlus className=" text-bg-cream" size={30} />
+                  <IconPlus className="text-bg-cream" size={30} />
                 </div>
-                <div className="relative w-full min-h-16 overflow-clip ">
-                  <p className="text-darkGreen font-dela text-xl absolute ">
+                <div className="relative w-full min-h-36 overflow-clip transition-all duration-300 delay-300bg-orange-600 flex items-center justify-center">
+                  <p
+                    className={`text-darkGreen font-dela text-xl absolute transition-all duration-300 delay-300 ${
+                      selectedIndex == idx ? "bottom-96" : "bottom-10"
+                    }`}
+                  >
                     {item.label}
+                  </p>
+                  <p
+                    className={`text-darkGreen font-bricolage text-sm absolute transition-all duration-300 delay-300 ${
+                      selectedIndex != idx ? "bottom-96" : "bottom-12"
+                    }`}
+                  >
+                    {item.ans}
                   </p>
                 </div>
               </div>
