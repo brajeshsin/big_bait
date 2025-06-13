@@ -6,6 +6,7 @@ import About from "@/common_components/home/About";
 import MemCoin from "@/common_components/home/MemCoin";
 import FAQ from "@/common_components/home/FAQ";
 import HowToBuy from "@/common_components/home/HowToBuy";
+import RoadMap from "@/common_components/home/RoadMap";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <About /> */}
+      <RoadMap />
       <HowToBuy />
       <FAQ />
       <MemCoin />
