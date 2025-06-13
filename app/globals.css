@@ -7,13 +7,15 @@
   --color-bg-cream: rgb(252, 250, 194);
   --color-customgreen: rgb(226, 254, 165);
   --color-customcream: rgb(248, 255, 232);
+  --color-darkGreen: rgba(15, 44, 35, 1);
+  --color-bgGreen: rgba(60, 87, 75, 1);
   --font-dela: "Dela Gothic One";
   --font-bricolage: "Bricolage Grotesque";
 }
 
 @layer components {
   .container {
-    @apply w-[300px] md:w-[1200px] mx-auto;
+    @apply w-[300px] md:w-[1200px] lg:min-w-full container flex items-center justify-center;
   }
 
   .font-dela {
@@ -26,6 +28,5 @@
 }
 
 body {
-  background: rgb(60, 87, 75);
   font-family: "Bricolage Grotesque", sans-serif;
 }

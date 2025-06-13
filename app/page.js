@@ -4,15 +4,17 @@ import Hero from "@/common_components/home/Hero";
 import Scroll from "@/common_components/home/Scroll";
 import About from "@/common_components/home/About";
 import MemCoin from "@/common_components/home/MemCoin";
+import FAQ from "@/common_components/home/FAQ";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <div>
+      {/* <Navbar />
       <Hero />
       <Scroll />
-      <About />
+      <About /> */}
+      <FAQ />
       <MemCoin />
-    </>
+    </div>
   );
 }
