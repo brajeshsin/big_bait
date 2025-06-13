@@ -28,7 +28,7 @@ export default function LogoSwiper() {
             <SwiperSlide key={index}>
               <div>
                 <button
-                  className="bg-cream px-8 py-4 border-4 border-black rounded-full cursor-pointer hover:bg-green"
+                  className="bg-cream px-8 py-4 border-4 border-black rounded-full cursor-pointer hover:bg-customgreen"
                   style={{ boxShadow: "2px 1px #000000" }}
                 >
                   {src}

@@ -9,10 +9,10 @@ import FAQ from "@/common_components/home/FAQ";
 export default function Home() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Scroll />
-      <About /> */}
+      <About />
       <FAQ />
       <MemCoin />
     </div>
