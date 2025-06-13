@@ -2,7 +2,13 @@ import React from "react";
 
 const MemCoin = () => {
   return (
-    <div className="flex items-center justify-center flex-col bg-bgGreen overflow-hidden ">
+    <div
+      className="flex items-center justify-center flex-col bg-bgGreen overflow-hidden "
+      style={{
+        backgroundImage: "url(/grain.svg)",
+        backgroundRepeat: "repeat",
+      }}
+    >
       <p className="text-customgreen text-4xl lg:text-9xl 2xl:text-[12rem] font-dela">
         MEMECOIN
       </p>

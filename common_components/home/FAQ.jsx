@@ -8,8 +8,12 @@ const FAQ = () => {
   return (
     <div
       className="bg-darkGreen flex items-center justify-center flex-col overflow-hidden py-20"
+      // style={{
+      //   backgroundImage: 'url("/plus.svg")',
+      // }}
       style={{
-        backgroundImage: 'url("/plus.svg")',
+        backgroundImage: "url(/grain.svg)",
+        backgroundRepeat: "repeat",
       }}
     >
       <p className="font-dela text-customgreen text-3xl lg:text-9xl text-center">

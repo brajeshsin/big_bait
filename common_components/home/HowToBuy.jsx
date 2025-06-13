@@ -6,7 +6,13 @@ import { IconArrowRight } from "@tabler/icons-react";
 const HowToBuy = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   return (
-    <div className="bg-bgGreen">
+    <div
+      className="bg-bgGreen"
+      style={{
+        backgroundImage: "url(/grain.svg)",
+        backgroundRepeat: "repeat",
+      }}
+    >
       <Container>
         <div className="grid grid-cols-12 w-full gap-4">
           <div className="col-span-12 lg:col-span-8 bg-darkGreen p-8 rounded-4xl">
