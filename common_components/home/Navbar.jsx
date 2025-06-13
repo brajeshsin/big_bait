@@ -7,7 +7,7 @@ import Container from "../Container";
 
 export default function () {
   return (
-    <div className="px-4 ">
+    <div className="px-4 bg-darkGreen ">
       <Container>
         <div
           className="flex  py-2 mt-8  scroll-py-1.5 md:py-2 px-3 bg-amber-50 border-4 border-black rounded-full  "

@@ -2,8 +2,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function () {
   return (
-    <div className="mt-20">
-      <div className="flex  flex-col  justify-center text-center  py-3 overflow-hidden">
+    <div className=" bg-darkGreen">
+      <div className="pt-20 flex  flex-col  justify-center text-center  py-3 overflow-hidden">
         <p className="text-customcream text-[17px] md:text-[20px] font-bold">
           INTRODUCING
         </p>

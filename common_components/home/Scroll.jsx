@@ -4,7 +4,7 @@ import Container from "../Container";
 
 export default function () {
   return (
-    <div>
+    <div className="bg-darkGreen">
       <Container>
         <div className="flex  mt-60 border-4 rounded-[100px] p-8 bg-[#f8ffe8] relative flex-col">
           <div>
