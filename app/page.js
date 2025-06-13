@@ -7,6 +7,7 @@ import MemCoin from "@/common_components/home/MemCoin";
 import FAQ from "@/common_components/home/FAQ";
 import HowToBuy from "@/common_components/home/HowToBuy";
 import RoadMap from "@/common_components/home/RoadMap";
+import Tokenomics from "@/common_components/home/Tokenomics";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <About /> */}
+      <Tokenomics />
       <RoadMap />
       <HowToBuy />
       <FAQ />
