@@ -1,42 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
-@import "tailwindcss";
-
-body {
-  background: rgb(60, 87, 75);
-  font-family: "Dela Gothic One", sans-serif;
-}
-
-@layer components {
-  .text-cream {
-    @apply text-[#F8FFE8];
-  }
-  .text-green {
-    @apply text-[#E2FEA5];
-  }
-  .bg-cream {
-    @apply bg-[#FCFAC2];
-  }
-  .container {
-    @apply w-[300px] md:w-[1200px] mx-auto;
-  }
-  .bg-green {
-    @apply bg-[#E2FEA5];
-  }
-  .hover\:bg-green:hover {
-    @apply bg-[#E2FEA5];
-  }
-  .font-dela {
-    font-family: "Dela Gothic One", sans-serif;
-  }
-} */
-
-/* ✅ Step 1: Put @import at the top — required by Turbopack */
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import "tailwindcss";
 
-/* ✅ Step 2: Define your custom utility classes */
 @layer components {
   .text-cream {
     @apply text-[#F8FFE8];
@@ -62,7 +27,6 @@ body {
     @apply bg-[#E2FEA5];
   }
 
-  /* ✅ Font utility classes */
   .font-dela {
     font-family: "Dela Gothic One", sans-serif;
   }
@@ -72,7 +36,6 @@ body {
   }
 }
 
-/* ✅ Step 3: Set a default global font (optional) */
 body {
   background: rgb(60, 87, 75);
   font-family: "Bricolage Grotesque", sans-serif;
