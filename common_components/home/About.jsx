@@ -1,45 +1,30 @@
 import Image from "next/image";
+import { RiVideoFill } from "react-icons/ri";
 
 export default function () {
   return (
     <div className="container p-4">
-      <h1 className="text-center mt-10 font-dela text-[75px] text-green">
+      <h1 className="text-center mt-10 font-dela text-[75px] text-customgreen">
         WHAT IS THIS ABOUT?
       </h1>
-      {/* <div className="bg-amber-500 flex justify-center">
-        <div className=" bg-red-600 w-80 h-100 bg-cream flex   p-8 font-dela text-[25px]">
-          <h1 className="text-start">
-            NOTHING IS <br /> IMPOSSIBLE <br /> WITH MEMECOIN
-          </h1>
-        </div>
-        <div className=" w-40 h-100 bg-red-500">
-          <h1>ijfwfwoefvnn</h1>
-        </div>
-
-        <div className=" w-40 h-40 bg-green-600">
-          <h1>Sidvdfzkbn</h1>
-        </div>
-      </div> */}
-      <div className="min-h-screen bg-[#3d4f44] flex justify-center items-center px-4 py-10">
-        <div className="flex flex-col md:flex-row gap-6 max-w-7xl w-full">
-          {/* Left Panel */}
-          <div className="bg-[#f1f1e7] rounded-3xl shadow-lg flex-1 p-6 flex flex-col justify-between text-black">
-            <div className="font-black text-2xl md:text-3xl tracking-wide leading-tight">
+      <div className="min-h-screen  flex justify-center items-center px-4 ">
+        <div className="flex flex-col md:flex-row max-w-7xl w-full">
+          <div className="bg-customcream rounded-l-3xl md:rounded-r-none shadow-lg flex-1 p-6 flex flex-col justify-between text-black border-t-4 border-l-4 border-b-4">
+            <div className="font-dela text-2xl  md:text-3xl tracking-wide leading-tight">
               NOTHING IS <br /> IMPOSSIBLE <br /> WITH MEMECOIN
             </div>
-            <div className="mt-6">
-              {/* <Image
+            <div className="mt-6 flex justify-center">
+              <Image
                 src="/rocket.png"
                 alt="Rocket"
-                width={300}
-                height={300}
-                className="mx-auto"
-              /> */}
+                width={200}
+                height={200}
+                className="object-contain"
+              />
             </div>
           </div>
 
-          {/* Middle Panel */}
-          <div className="bg-[#1f352b] text-white rounded-3xl shadow-lg flex-1 p-6 leading-relaxed font-medium">
+          <div className="  bg-[#0F2C23] text-customgreen shadow-lg flex-[1.2] p-8 leading-relaxed font-bricolage text-[18px] rounded-3xl   flex-col border-4 border-black  ">
             <p>
               In the vibrant and ever-evolving world of cryptocurrency, where
               innovation and creativity reign supreme, there emerged a
@@ -66,23 +51,63 @@ export default function () {
             </p>
           </div>
 
-          {/* Right Panel */}
-          <div className="bg-[#f1f1e7] rounded-3xl shadow-lg flex-1 p-6 relative">
+          {/* <div className="bg-[#f1f1e7] rounded-r-3xl md:rounded-l-none shadow-lg flex-1 p-6 relative flex flex-col border-t-4 border-r-4 border-b-4">
             <p className="text-black font-semibold mb-3 flex items-center gap-2">
               <span className="inline-block w-4 h-4 bg-black rounded-full flex items-center justify-center text-white text-xs">
                 ▶
               </span>
               Watch the video
             </p>
-            <Image
-              src="/video-art.png"
-              alt="Video"
-              width={400}
-              height={400}
-              className="rounded-2xl w-full"
-            />
+            <div className="flex-1 flex items-center justify-center">
+              <div className="aspect-w-50 aspect-h-9 w-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://player.vimeo.com/video/345945892?h=790722641c"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
+          </div> */}
+          <div className="bg-[#f1f1e7] rounded-r-3xl md:rounded-l-none shadow-lg flex-1 p-6 relative flex flex-col border-t-4 border-r-4 border-b-4">
+            <p className="text-black font-semibold mb-3 flex items-center gap-2 cursor-pointer">
+              <span className="inline-block  flex items-center justify-center text-black text-xs">
+                <RiVideoFill className="w-10 h-10 cursor-pointer" />
+              </span>
+              Watch the video
+            </p>
+            <div className="flex-1 flex items-center justify-center">
+              <div className="w-full h-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://player.vimeo.com/video/345945892?h=790722641c&autoplay=1&loop=1&muted=1"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <button
+          style={{
+            borderColor: "rgb(0, 0, 0)",
+            boxShadow: "rgb(0, 0, 0) 2px 4px 0px 0px",
+            backgroundColor: "rgb(252, 250, 194)",
+            borderBottomWidth: "1px",
+            borderRightWidth: "2px",
+            borderTopWidth: "3px",
+            borderLeftWidth: "2px",
+
+            borderStyle: "solid",
+          }}
+          className="min-w-fit px-10 py-3 rounded-full font-bricolage font-semibold text-[17px] transition-all delay-100 duration-300 hover:scale-110 cursor-pointer"
+        >
+          Buy Template
+        </button>
       </div>
     </div>
   );
