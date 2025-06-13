@@ -3,7 +3,7 @@ import { RiVideoFill } from "react-icons/ri";
 
 export default function () {
   return (
-    <div className="container p-4">
+    <div className="container p-4 bg-darkGreen">
       <h1 className="text-center mt-10 font-dela text-[75px] text-customgreen">
         WHAT IS THIS ABOUT?
       </h1>
