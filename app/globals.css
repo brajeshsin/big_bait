@@ -2,29 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import "tailwindcss";
 
+@theme inline {
+  --color-bg-green: rgb(226, 254, 165);
+  --color-bg-cream: rgb(252, 250, 194);
+  --color-customgreen: rgb(226, 254, 165);
+  --color-customcream: rgb(248, 255, 232);
+}
+
 @layer components {
-  .text-cream {
-    @apply text-[#F8FFE8];
-  }
-
-  .text-green {
-    @apply text-[#E2FEA5];
-  }
-
-  .bg-cream {
-    @apply bg-[#FCFAC2];
-  }
-
   .container {
     @apply w-[300px] md:w-[1200px] mx-auto;
-  }
-
-  .bg-green {
-    @apply bg-[#E2FEA5];
-  }
-
-  .hover\:bg-green:hover {
-    @apply bg-[#E2FEA5];
   }
 
   .font-dela {

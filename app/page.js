@@ -3,6 +3,7 @@ import Navbar from "@/common_components/home/Navbar";
 import Hero from "@/common_components/home/Hero";
 import Scroll from "@/common_components/home/Scroll";
 import About from "@/common_components/home/About";
+import MemCoin from "@/common_components/home/MemCoin";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <About />
+      <MemCoin />
     </>
   );
 }
