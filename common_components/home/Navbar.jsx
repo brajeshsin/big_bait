@@ -10,7 +10,7 @@ export default function () {
     <div className="px-4 ">
       <Container>
         <div
-          className="flex w-[300px] md:w-[1200px]  py-2 mt-8  scroll-py-1.5 md:py-2 px-3 bg-amber-50 border-4 border-black rounded-full  "
+          className="flex  py-2 mt-8  scroll-py-1.5 md:py-2 px-3 bg-amber-50 border-4 border-black rounded-full  "
           style={{ boxShadow: "1px 1px #000000" }}
         >
           <div className="w-1/2 flex text-center">
