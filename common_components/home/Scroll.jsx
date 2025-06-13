@@ -11,7 +11,7 @@ export default function () {
           </h1>
         </div>
 
-        <div className="bg-green absolute mt-[-88px] ml-[50px] border-t-4 border-l-4 border-r-4 rounded-t-xl p-3">
+        <div className="bg-bg-green absolute mt-[-88px] ml-[50px] border-t-4 border-l-4 border-r-4 rounded-t-xl p-3">
           <h1 className="text-[16px] font-bold">
             Token Address: 0x532f27101965dd16442E59d40670FaF5eBB142E4
           </h1>

@@ -8,7 +8,7 @@ export default function () {
           INTRODUCING
         </p>
         <h1 className="text-[48px] md:text-[100px] font-dela text-customgreen">
-          MEMECOIN
+          BIG BAIT
         </h1>
         <p className="font-bold text-customcream text-[17px] md:text-[20px]">
           The only cryptocurrency you will HODL till the next bear run.
