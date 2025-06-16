@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 import Navbar from "@/common_components/home/Navbar";
 import Hero from "@/common_components/home/Hero";
 import Scroll from "@/common_components/home/Scroll";
@@ -8,14 +8,19 @@ import FAQ from "@/common_components/home/FAQ";
 import HowToBuy from "@/common_components/home/HowToBuy";
 import RoadMap from "@/common_components/home/RoadMap";
 import Tokenomics from "@/common_components/home/Tokenomics";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Scroll />
-      <About /> */}
+      <About />
       <Tokenomics />
       <RoadMap />
       <HowToBuy />
