@@ -4,7 +4,7 @@ const Container = ({ children, disablePadding = false }) => {
   return (
     <div className="grid grid-cols-12 w-full">
       <div
-        className={`col-span-12 lg:col-span-8 lg:col-start-3  ${
+        className={`col-span-12 lg:col-span-8 lg:col-start-3   ${
           !disablePadding && "p-10"
         }`}
       >
