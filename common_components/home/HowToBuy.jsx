@@ -27,7 +27,7 @@ const HowToBuy = () => {
             <div className="p-8 bg-darkGreen text-customcream rounded-4xl flex flex-col items-center justify-center">
               <p>
                 Have you gone through all of the steps before? Great! Then just
-                hit the button down below and fill up your bag with memecoin
+                hit the button down below and fill up your bag with BigBait
                 right now.
               </p>
               <img src="/howto.svg" alt="" />
@@ -44,7 +44,7 @@ const HowToBuy = () => {
               }}
               className="min-w-full px-14 py-6 rounded-full font-bricolage font-semibold text-4xl transition-all delay-100 duration-300 hover:scale-110 cursor-pointer"
             >
-              Buy Template
+              Play Bigbait
             </button>
           </div>
           <div className="col-span-12 lg:col-span-7 bg-darkGreen rounded-4xl relative overflow-hidden">

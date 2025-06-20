@@ -72,27 +72,27 @@ export default FAQ;
 
 const faqData = [
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
   {
-    label: "What is memecoin and how does it work?",
-    ans: "Memecoin is a fictional cryptocurrency that is showcased in this Framer template.",
+    label: "What is BigBait and how does it work?",
+    ans: "BigBait is a fictional cryptocurrency that is showcased in this Framer template.",
   },
 ];

@@ -18,7 +18,7 @@ export default function () {
         <div className="grid grid-cols-12 w-full my-30">
           <div className="col-span-12 lg:col-span-4 bg-customcream md:rounded-l-3xl md:rounded-r-none shadow-lg flex-1 flex flex-col justify-between text-black border-t-4 border-l-4 border-b-4 border-black  min-h-40 lg:gap-10 pt-4 pl-4 relative rounded-t-4xl">
             <div className="font-dela text-2xl tracking-wide leading-tight">
-              NOTHING IS <br /> IMPOSSIBLE <br /> WITH MEMECOIN
+              NOTHING IS <br /> IMPOSSIBLE <br /> WITH BigBait
             </div>
             <div className="flex justify-center lg:mt-10  z-30 absolute -top-10 right-0  lg:relative">
               <img
@@ -34,7 +34,7 @@ export default function () {
               In the vibrant and ever-evolving world of cryptocurrency, where
               innovation and creativity reign supreme, there emerged a
               phenomenon that captured the hearts and minds of digital
-              enthusiasts everywhere: Memecoin.
+              enthusiasts everywhere: BigBait.
             </p>
             <br />
             <p>
@@ -42,17 +42,17 @@ export default function () {
               internet culture that thrived on humor and satire. A group of
               visionary developers and meme enthusiasts came together with a
               shared passion for both cryptocurrency and the art of internet
-              memes. They envisioned a platform that would combine these two
+              Bigbait. They envisioned a platform that would combine these two
               seemingly disparate worlds into a harmonious symphony of laughter
               and digital currency.
             </p>
             <br />
             <p>
-              Thus, Memecoin was born – a revolutionary platform that empowered
+              Thus, BigBait was born – a revolutionary platform that empowered
               creators to unleash their imagination and bring their wildest
               meme-inspired dreams to life. It wasn't just about trading coins;
               it was about building communities, sparking conversations, and
-              spreading joy through the power of memes.
+              spreading joy through the power of Bigbait.
             </p>
           </div>
 
@@ -84,7 +84,7 @@ export default function () {
             }}
             className="min-w-fit px-10 py-3 rounded-full font-bricolage font-semibold text-[17px] transition-all delay-100 duration-300 hover:scale-110 cursor-pointer"
           >
-            Buy Template
+            Play Bigbait
           </button>
         </div>
       </Container>

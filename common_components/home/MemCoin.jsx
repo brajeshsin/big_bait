@@ -10,7 +10,7 @@ const MemCoin = () => {
       }}
     >
       <p className="text-customgreen text-4xl lg:text-9xl 2xl:text-[12rem] font-dela">
-        MEMECOIN
+        BigBait
       </p>
       <div className="w-full xl:w-[80%] my-12 grid grid-cols-12">
         {textItems?.map((item, idx) => {
@@ -38,7 +38,7 @@ const MemCoin = () => {
         }}
         className="min-w-fit px-14 py-4 rounded-full font-bricolage font-semibold text-4xl transition-all delay-100 duration-300 hover:scale-110 cursor-pointer"
       >
-        Buy Template
+        Play Bigbait
       </button>
       <p className="font-bricolage text-white mt-10 mb-20">
         → Cryptocurrency Trading Risk Policy
@@ -51,13 +51,13 @@ const MemCoin = () => {
         />
         <div className=" hidden lg:col-span-6 lg:flex items-end relative">
           <p className="absolute z-10 right-56 bottom-12 font-dela text-white text-xs">
-            MEMECOIN, 2025
+            BigBait, 2025
           </p>
           <img src="/left.svg" alt="" className="absolute " />
         </div>
         <div className="col-span-12 lg:col-span-6 flex justify-center items-center lg:items-end relative flex-col lg:flex-row ">
           <p className="lg:absolute z-10 left-32 bottom-12 font-dela text-white text-xs lg:flex hidden">
-            WITH LOVE FOR MEMES
+            WITH LOVE FOR Bigbait
           </p>
           <img
             src="/right.svg"
@@ -70,8 +70,10 @@ const MemCoin = () => {
             className="h-64 z-10 flex lg:hidden "
           />
           <div className="mt-10 lg:hidden flex flex-col gap-4 items-center">
-            <p className=" z-10 font-dela text-white text-xs">MEMECOIN, 2025</p>
-            <p className="font-dela text-white text-xs">WITH LOVE FOR MEMES</p>
+            <p className=" z-10 font-dela text-white text-xs">BigBait, 2025</p>
+            <p className="font-dela text-white text-xs">
+              WITH LOVE FOR Bigbait
+            </p>
           </div>
         </div>
       </div>

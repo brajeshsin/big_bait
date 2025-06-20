@@ -54,7 +54,7 @@ const cardData = [
       </p>
     ),
     subTitle:
-      "Memecoin has forged strategic partnerships with leading players in the cryptocurrency industry, as well as with key influencers and platforms in the meme community.",
+      "BigBait has forged strategic partnerships with leading players in the cryptocurrency industry, as well as with key influencers and platforms in the meme community.",
   },
   {
     img: "/found2.avif",
@@ -64,7 +64,7 @@ const cardData = [
       </p>
     ),
     subTitle:
-      "Through active engagement, open communication, and collaborative initiatives, Memecoin fosters a strong sense of community spirit among its members.",
+      "Through active engagement, open communication, and collaborative initiatives, BigBait fosters a strong sense of community spirit among its members.",
   },
   {
     img: "/found3.avif",
@@ -74,6 +74,6 @@ const cardData = [
       </p>
     ),
     subTitle:
-      "With a growing network of users, developers, and investors, Memecoin offers unparalleled opportunities for collaboration, networking, and mutual support.",
+      "With a growing network of users, developers, and investors, BigBait offers unparalleled opportunities for collaboration, networking, and mutual support.",
   },
 ];
