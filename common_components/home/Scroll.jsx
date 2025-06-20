@@ -6,7 +6,7 @@ export default function () {
   return (
     <div className="bg-darkGreen">
       <Container>
-        <div className="flex  mt-60 border-black border-4 lg:rounded-[100px] p-8 bg-[#f8ffe8] relative flex-col">
+        <div className="flex  mt-60 border-black border-4 rounded-b-[60px] rounded-t-[15px] md:rounded-b-[60px] md:rounded-t-[15px] lg:rounded-[100px] p-8 bg-[#f8ffe8] relative flex-col">
           <div>
             <h1 className="text-4xl lg:text-9xl font-dela">
               GET IT <br /> NOW ON:
