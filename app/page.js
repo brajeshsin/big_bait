@@ -12,6 +12,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { SplitText } from "gsap/SplitText";
+import Foundation from "@/common_components/home/Foundation";
 gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText);
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Hero />
       <Scroll />
       <About />
+      <Foundation />
       <Tokenomics />
       <RoadMap />
       <HowToBuy />

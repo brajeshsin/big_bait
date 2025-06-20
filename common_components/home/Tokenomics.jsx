@@ -16,11 +16,10 @@ const Tokenomics = () => {
     gsap.to(imgRef?.current, {
       scrollTrigger: {
         trigger: ".box",
-        start: "top bottom",
+        start: "200px top",
         scrub: 1,
-        markers: true,
       },
-      y: -300,
+      y: -200,
       stagger: 1,
     });
 
@@ -28,7 +27,6 @@ const Tokenomics = () => {
       scrollTrigger: {
         trigger: ".box",
         start: "top bottom",
-        markers: true,
       },
       duration: 1,
       y: 100,

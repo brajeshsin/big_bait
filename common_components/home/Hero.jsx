@@ -19,7 +19,7 @@ export default function () {
               className="text-[20px] font-bold px-8 py-2 lg:px-16 border-4 border-black lg:py-3 bg-bg-cream rounded-full duration-300 ease-in hover:scale-105 cursor-pointer"
               style={{ boxShadow: "1px 1px #000000" }}
             >
-              Buy Template
+              Play Bigbait
             </button>
           </div>
           <div className="flex justify-between gap-2 overflow-hidden relative ">

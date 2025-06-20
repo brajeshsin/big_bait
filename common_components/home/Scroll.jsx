@@ -6,13 +6,13 @@ export default function () {
   return (
     <div className="bg-darkGreen">
       <Container>
-        <div className="flex  mt-60 border-4 rounded-[100px] p-8 bg-[#f8ffe8] relative flex-col">
+        <div className="flex  mt-60 border-black border-4 lg:rounded-[100px] p-8 bg-[#f8ffe8] relative flex-col">
           <div>
-            <h1 className="text-[80px] font-dela">
+            <h1 className="text-4xl lg:text-9xl font-dela">
               GET IT <br /> NOW ON:
             </h1>
           </div>
-          <div className="bg-bg-green absolute mt-[-88px] ml-[50px] border-t-4 border-l-4 border-r-4 rounded-t-xl p-3">
+          <div className="bg-bg-green absolute mt-[-88px] ml-[50px]  border-t-4 border-l-4 border-r-4 rounded-t-xl p-3">
             <h1 className="text-[16px] font-bold">
               Token Address: 0x532f27101965dd16442E59d40670FaF5eBB142E4
             </h1>
